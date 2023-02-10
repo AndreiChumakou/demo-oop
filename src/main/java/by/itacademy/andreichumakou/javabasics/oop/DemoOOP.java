@@ -74,6 +74,17 @@ public class DemoOOP {
         car003.setRegistrationNumber("103174403003");
         System.out.println(car003);
 
+        System.out.println("-----------");
+        CarShowroom carShowroomMinsk = new CarShowroom();
+        carShowroomMinsk.newCarArrival(car001);
+        carShowroomMinsk.newCarArrival(car002);
+        carShowroomMinsk.newCarArrival(car003);
+        System.out.println(carShowroomMinsk.getListOfCarCurrent());
+
+        carShowroomMinsk.saleCar(car002);
+        System.out.println(carShowroomMinsk.getListOfCarCurrent());
+
+
     }
 
 }
