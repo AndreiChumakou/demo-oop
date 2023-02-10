@@ -43,6 +43,37 @@ public class DemoOOP {
         book003.setYearOfPublishing(2021);
         System.out.println(book003);
 
+        Car car001 = new Car();
+        car001.setId(103703106);
+        car001.setCarBrand("Opel");
+        car001.setCarModel("Astra K");
+        car001.setYearOfManufacture(2018);
+        car001.setColor("white");
+        car001.setPrice(31838.00);
+        car001.setRegistrationNumber("103703106001");
+        System.out.println(car001);
+
+        Car car002 = new Car();
+        car002.setId(103636245);
+        car002.setCarBrand("Opel");
+        car002.setCarModel("Insignia II");
+        car002.setYearOfManufacture(2019);
+        car002.setColor("grey");
+        car002.setPrice(67830.00);
+        car002.setRegistrationNumber("103636245002");
+        System.out.println(car002);
+        System.out.println(car002.getCarBrand());
+
+        Car car003 = new Car();
+        car003.setId(103174403);
+        car003.setCarBrand("Skoda");
+        car003.setCarModel("Kodiaq ");
+        car003.setYearOfManufacture(-2019);
+        car003.setColor("red");
+        car003.setPrice(83860.00);
+        car003.setRegistrationNumber("103174403003");
+        System.out.println(car003);
+
     }
 
 }
